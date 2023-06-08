@@ -41,7 +41,7 @@ function calcular($num1, $num2, $operador)
             return $num1 * $num2;
         case '/':
             if ($num2 == 0) {
-                return "( •̀ᴗ•́)╭∩╮ No brother eso no funcionara";
+                return "( •̀ᴗ•́)╭∩╮ No brother eso no funcionara  ";
               } else {
                 return $num1 / $num2;
               }
