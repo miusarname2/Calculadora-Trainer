@@ -40,9 +40,14 @@ function calcular($num1, $num2, $operador)
         case '*':
             return $num1 * $num2;
         case '/':
-            return $num1 / $num2;
+            if ($num2 == 0) {
+                return "( •̀ᴗ•́)╭∩╮ No brother eso no funcionara";
+              } else {
+                return $num1 / $num2;
+              }
         default:
             return 0;
+            
     }
 }
 
