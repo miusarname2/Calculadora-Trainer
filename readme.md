@@ -20,3 +20,4 @@ Esta es una calculadora simple escrita en PHP. Puede realizar operaciones básic
 
 * El botón "c" borrará todos los valores de los campos de texto.
 * El botón "←" borrará el último carácter del campo de texto.
+* 
